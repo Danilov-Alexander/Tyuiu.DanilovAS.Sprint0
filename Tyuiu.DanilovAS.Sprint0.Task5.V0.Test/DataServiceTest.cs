@@ -1,8 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.DanilovAS.Sprint0.Task4.V0.Lib;
-namespace Tyuiu.DanilovAS.Sprint0.Task4.V0.Test
+using Tyuiu.DanilovAS.Sprint0.Task5.V0.Lib;
+
+namespace Tyuiu.DanilovAS.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -30,7 +31,6 @@ namespace Tyuiu.DanilovAS.Sprint0.Task4.V0.Test
         {
             Assert.AreEqual(3, DataService.Division(9, 3));
         }
+
     }
 }
-
-
